@@ -1,0 +1,55 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: blanchedalmond;
+  }
+  
+  p {
+    font-size: 25px;
+  }
+  
+  input {
+    font-size: 15px;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .textbox {
+    resize: none;
+    width: 100%;
+  }
+  
+  .meme {
+    position: relative;
+    text-align: center;
+  }
+  
+  .memeTop {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-75%, -50%);
+  }
+  
+  .memeBottom {
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    color: white;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-75%, 50%);
+  }
+  
+  .button {
+    font-family: "Montserrat", sans-serif;
+    border: solid grey 2px;
+    background-color: white;
+    border-radius: 5px;
+  }

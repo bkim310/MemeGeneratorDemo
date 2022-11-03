@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEME GENERATOR</title>
+    <link rel="stylesheet" href="app.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="topDiv">
+    <h1>MEME GENERATOR</h1>
+    <h2>Fill out the form below to create sick memes!</h2>
+    <form action="#" id="form">
+      <p>
+        Image URL:
+        <input
+          type="text"
+          id="image-url"
+          class="textbox"
+          name="image-url"
+          placeholder="Paste the image URL here"
+        />
+      </p>
+
+      <p>
+        Text on Top:
+        <input
+          type="text"
+          id="top-text"
+          class="textbox"
+          name="top-text"
+          placeholder="(Optional) What text should be at the top of the meme?"
+        />
+      </p>
+
+      <p>
+        Text on Bottom:
+        <input
+          type="text"
+          id="bottom-text"
+          class="textbox"
+          name="bottom-text"
+          placeholder="(Optional) What text should be at the bottom of the meme?"
+        />
+      </p>
+      <input type="submit" value="Create Meme!" class="button" />
+    </div>
+      <hr />
+    </form>
+    <div id="mainDiv"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
